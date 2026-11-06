@@ -16,7 +16,7 @@ This repo contains information about how to access rain radar data (from [1 km N
 ...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is provided under the Open Govt. License.
 
 ### Data endpoints
-All data used in this notebook is available from the JASMIN Object Store:
+All data used in this notebook are available from the JASMIN Object Store:
 | s3 path | description | coverage |endpoint |
 | ------- | ------- | --- | --- |
 | s3://rain-radar/NIMROD-subsets/Chess-20km-buffer | Radar rainfall rate around Chess at Ricksmanworth | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
