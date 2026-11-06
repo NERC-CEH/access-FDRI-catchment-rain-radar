@@ -15,11 +15,6 @@ This repo contains information about how to access rain radar data (from [1 km N
 
 ...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is under the Open Govt. License.
 
-
-### about FDRI
-The Floods and Droughts Research Infrastructure is a NERC-funded project established to fill critical gaps in flood and drought monitoring, enabling researchers, industry and government practitioners to build the UK’s resilience to extremes in a rapidly changing climate. 
-
-
 ### Data endpoints
 All data used in this notebook is available from the JASMIN Object Store:
 | s3 path | description | coverage |endpoint |
@@ -41,9 +36,6 @@ If you have issues accessing data from JASMIN Object Store, see [CEDA status](ht
 <p align="center">
     <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_catchment_extract.png" alt="Dowlen-Jul" style="width:250px;"/>
 </p>
-
-
-
 
 
 ## How to run these notebooks
@@ -88,3 +80,6 @@ The data may also have gaps, owing to underlying issues with the NIMROD composit
 
 ## About this work
 This work was carried as part of the UK Government funded [Floods and Droughts Research Infrastructure (FDRI)](https://fdri.org.uk/) project.
+
+### about FDRI
+The Floods and Droughts Research Infrastructure is a NERC-funded project established to fill critical gaps in flood and drought monitoring, enabling researchers, industry and government practitioners to build the UK’s resilience to extremes in a rapidly changing climate. 
