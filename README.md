@@ -7,10 +7,6 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NERC-CEH/access-FDRI-catchment-rain-radar/HEAD)
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:300px;"/>
-</p>
-
 ## Description
 This repo contains information about how to access rain radar data (from [1 km NIMROD composite](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)) over the 3 FDRI river catchments: 
 * [River Chess at Ricksmanworth](https://nrfa.ceh.ac.uk/data/station/spatial/39088) 105 km2
@@ -36,9 +32,17 @@ Note that you can you use the endpoint: 'http://fdri-o.s3.jc.rl.ac.uk' when work
 If you have issues accessing data from JASMIN Object Store, see [CEDA status](https://www.ceda.ac.uk/status/)
 
 ## Gallery
-<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_jul07_timeseries.png" alt="catch-ts" style="width:250px;"/>
 
-<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_catchment_extract.png" alt="Dowlen-Jul" style="width:250px;"/>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:300px;"/>
+    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_jul07_timeseries.png" alt="catch-ts" style="width:300px;"/>
+    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_catchment_extract.png" alt="Dowlen-Jul" style="width:250px;"/>
+</p>
+
+
+
+
 
 ## How to run these notebooks
 ### Requirements
