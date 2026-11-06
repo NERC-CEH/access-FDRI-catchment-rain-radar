@@ -50,11 +50,11 @@ If you have issues accessing data from JASMIN Object Store, see [CEDA status](ht
 ### Requirements
 | Package | version | Use |
 | ------- | ------- | --- |
-| numpy | | data |
-| xarray[io] | | data |
-| dask | | data |
-| matplotlib | | plotting |
-| cartopy | | spatial |
+| numpy | 2.5.4 | data |
+| xarray[io] | 2026.9.0 | data |
+| dask | 2026.8.0 | data |
+| matplotlib | 3.11.2 | plotting |
+| cartopy | 0.26.0 | spatial |
 | s3fs | >=2026.9.0 | cloud read |
 
 ### Notebook apps
