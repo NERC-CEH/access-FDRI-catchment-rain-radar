@@ -31,7 +31,7 @@ If you have issues accessing data from JASMIN Object Store, see [CEDA status](ht
     <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" 
     style="width:295px;"/>
     <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/chess_rainradar_2026_08_28_1700.png" alt="catch-subset" style="width:300px;"/>
-    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_rainradar_2020_02_16_0100.png" alt="catch-subset" style="width:230px;"/>
+    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_rainradar_2020_02_16_0100.png" alt="catch-subset" style="width:225px;"/>
 </p>
 <p align="center">
     <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_jul07_timeseries.png" alt="catch-ts" style="width:295px;"/>
