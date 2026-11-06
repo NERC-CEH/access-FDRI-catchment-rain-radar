@@ -1,0 +1,6 @@
+xarray[io]
+dask
+geopandas
+s3fs>=2026.9.0
+cartopy
+matplotlib
