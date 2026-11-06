@@ -7,6 +7,10 @@
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NERC-CEH/access-FDRI-catchment-rain-radar/HEAD)
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:300px;"/>
+</p>
+
 ## Description
 This repo contains information about how to access rain radar data (from [1 km NIMROD composite](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)) over the 3 FDRI river catchments: 
 * [River Chess at Ricksmanworth](https://nrfa.ceh.ac.uk/data/station/spatial/39088) 105 km2
@@ -14,8 +18,6 @@ This repo contains information about how to access rain radar data (from [1 km N
 * [River Tweed at Peebles](https://nrfa.ceh.ac.uk/data/station/spatial/21003) 694 km2
 
 ...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is under the Open Govt. License.
-
-<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:250px;"/>
 
 
 ### about FDRI
