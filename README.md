@@ -15,29 +15,26 @@ This repo contains information about how to access rain radar data (from [1 km N
 
 ...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is under the Open Govt. License.
 
+<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:250px;"/>
+
+
 ### about FDRI
 The Floods and Droughts Research Infrastructure is a NERC-funded project established to fill critical gaps in flood and drought monitoring, enabling researchers, industry and government practitioners to build the UK’s resilience to extremes in a rapidly changing climate. 
-
-### Known gaps in NIMROD composite
-The data may also have gaps, owing to underlying issues with the NIMROD composite. These are known gaps:
-* Dec 2022
 
 
 ### Data endpoints
 All data used in this notebook is available from the JASMIN Object Store:
 | s3 path | description | coverage |endpoint |
 | ------- | ------- | --- | --- |
-| s3://rain-radar/NIMROD-subsets/Chess-20km-buffer | Radar rainfall rate around Chess at Ricksmanworth | 04-2014 to 10-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
-| s3://rain-radar/NIMROD-subsets/Dolwen-20km-buffer | Radar rainfall rate around Severn at Dolwen | 04-2014 to 10-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
-| s3://rain-radar/NIMROD-subsets/Peebles-20km-buffer | Radar rainfall rate around Tweed at Peebles | 04-2014 to 10-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
+| s3://rain-radar/NIMROD-subsets/Chess-20km-buffer | Radar rainfall rate around Chess at Ricksmanworth | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
+| s3://rain-radar/NIMROD-subsets/Dolwen-20km-buffer | Radar rainfall rate around Severn at Dolwen | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
+| s3://rain-radar/NIMROD-subsets/Peebles-20km-buffer | Radar rainfall rate around Tweed at Peebles | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
 
-Note that you can you use 'http://fdri-o.s3.jc.rl.ac.uk' when working from inside JASMIN ([more info](https://help.jasmin.ac.uk/docs/short-term-project-storage/object-store/jasmin-object-store/#urls-for-internal-and-external-access)).
+Note that you can you use the endpoint: 'http://fdri-o.s3.jc.rl.ac.uk' when working from inside JASMIN ([more info](https://help.jasmin.ac.uk/docs/short-term-project-storage/object-store/jasmin-object-store/#urls-for-internal-and-external-access)).
 If you have issues accessing data from JASMIN Object Store, see [CEDA status](https://www.ceda.ac.uk/status/)
 
 ## Gallery
-<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_2007_07_20_0900.png" alt="catch-subset" style="width:500px;"/>
-
-<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/rainradar_jul07_timeseries.png" alt="catch-subset" style="width:500px;"/>
+<img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/dolwen_rainradar_jul07_timeseries.png" alt="catch-ts" style="width:250px;"/>
 
 <img src="https://raw.githubusercontent.com/Thomasjkeel/access-FDRI-catchment-rain-radar/refs/heads/main/figures/peebles_catchment_extract.png" alt="Dowlen-Jul" style="width:250px;"/>
 
@@ -52,6 +49,7 @@ If you have issues accessing data from JASMIN Object Store, see [CEDA status](ht
 | cartopy | | spatial |
 | s3fs | >=2026.9.0 | cloud read |
 
+### Notebook apps
 <details>
     <summary><i><b>If you are not intending to run these notebooks locally, please click here for running options (JASMIN will offer the fastest run-times).</i></b></b></summary>
 
@@ -75,6 +73,10 @@ Click the "Launch Binder" button at the top of the notebook. Please note that it
 - Obtain a copy of the notebooks by clicking the 'Git' in the menu bar at the top of the webpage, then 'Clone a Repository'. Tick the 'Download the repository' button, and paste in the link to the repository: https://github.com/NERC-CEH/access-FDRI-catchment-rain-radar.git (this can also be obtained by clicking the big green '<> Code' button on the repository main page, clicking 'HTTPS' and copying the link shown).
 
 </details>
+
+## Known gaps in NIMROD composite
+The data may also have gaps, owing to underlying issues with the NIMROD composite. These are known gaps:
+* Dec 2022
 
 ## About this work
 This work was carried as part of the UK Government funded [Floods and Droughts Research Infrastructure (FDRI)](https://fdri.org.uk/) project.
