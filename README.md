@@ -13,7 +13,7 @@ This repo contains information about how to access rain radar data (from [1 km N
 * [River Severn at Dolwen](https://nrfa.ceh.ac.uk/data/station/spatial/54080) -- A high relief, wet and responsive catchment on Silurian shales (174 km2)
 * [River Tweed at Peebles](https://nrfa.ceh.ac.uk/data/station/spatial/21003) -- Upland catchment of Tweed (694 km2)
 
-...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is under the Open Govt. License.
+...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is provided under the Open Govt. License.
 
 ### Data endpoints
 All data used in this notebook is available from the JASMIN Object Store:
