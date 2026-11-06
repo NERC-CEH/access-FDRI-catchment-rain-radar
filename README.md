@@ -9,9 +9,9 @@
 
 ## Description
 This repo contains information about how to access rain radar data (from [1 km NIMROD composite](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)) over the 3 FDRI river catchments: 
-* [River Chess at Ricksmanworth](https://nrfa.ceh.ac.uk/data/station/spatial/39088) 105 km2
-* [River Severn at Dolwen](https://nrfa.ceh.ac.uk/data/station/spatial/54080) 174 km2
-* [River Tweed at Peebles](https://nrfa.ceh.ac.uk/data/station/spatial/21003) 694 km2
+* [River Chess at Ricksmanworth](https://nrfa.ceh.ac.uk/data/station/spatial/39088) -- Chalk stream draining the dip-slope of the Chilterns (105 km2)
+* [River Severn at Dolwen](https://nrfa.ceh.ac.uk/data/station/spatial/54080) -- A high relief, wet and responsive catchment on Silurian shales (174 km2)
+* [River Tweed at Peebles](https://nrfa.ceh.ac.uk/data/station/spatial/21003) -- Upland catchment of Tweed (694 km2)
 
 ...in each case we have extracted data in a 20km buffer around the given catchment. NIMROD data was accessed via `/badc/ukmo-nimrod/` on JASMIN, and that data is under the Open Govt. License.
 
