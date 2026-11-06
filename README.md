@@ -20,8 +20,8 @@ All data used in this notebook are available from the JASMIN Object Store:
 | s3 path | description | resolution | coverage |endpoint |
 | ------- | ------- | --- | --- | --- |
 | s3://rain-radar/NIMROD-subsets/Chess-20km-buffer | 1 km rainfall rate around Chess at Ricksmanworth | 15-min | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
-| s3://rain-radar/NIMROD-subsets/Dolwen-20km-buffer | 1 km 15-min rainfall rate around Severn at Dolwen | 15-min | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
-| s3://rain-radar/NIMROD-subsets/Peebles-20km-buffer | 1 km 15-min rainfall rate around Tweed at Peebles | 15-min | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
+| s3://rain-radar/NIMROD-subsets/Dolwen-20km-buffer | 1 km rainfall rate around Severn at Dolwen | 15-min | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
+| s3://rain-radar/NIMROD-subsets/Peebles-20km-buffer | 1 km rainfall rate around Tweed at Peebles | 15-min | Apr-2014 to Oct-2026 | https://fdri-o.s3-ext.jc.rl.ac.uk |
 
 Note that you can you use the endpoint: 'http://fdri-o.s3.jc.rl.ac.uk' when working from inside JASMIN ([more info](https://help.jasmin.ac.uk/docs/short-term-project-storage/object-store/jasmin-object-store/#urls-for-internal-and-external-access)).
 If you have issues accessing data from JASMIN Object Store, see [CEDA status](https://www.ceda.ac.uk/status/)
