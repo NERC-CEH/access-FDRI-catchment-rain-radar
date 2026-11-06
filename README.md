@@ -8,7 +8,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NERC-CEH/access-FDRI-catchment-rain-radar/HEAD)
 
 ## Description
-This repo contains information about how to access rain radar data (from [1 km NIMROD composite](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)) over the 3 FDRI river catchments: 
+This repo contains information about how to access rain radar data (from [1 km NIMROD composite](https://catalogue.ceda.ac.uk/uuid/27dd6ffba67f667a18c62de5c3456350/)) over the 3 FDRI river sub-catchments: 
 * [River Chess at Ricksmanworth](https://nrfa.ceh.ac.uk/data/station/spatial/39088) -- Chalk stream draining the dip-slope of the Chilterns (105 km2)
 * [River Severn at Dolwen](https://nrfa.ceh.ac.uk/data/station/spatial/54080) -- A high relief, wet and responsive catchment on Silurian shales (174 km2)
 * [River Tweed at Peebles](https://nrfa.ceh.ac.uk/data/station/spatial/21003) -- Upland catchment of Tweed (694 km2)
